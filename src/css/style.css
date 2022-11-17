@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   max-width: 100vw;
   font-family: var(--fontStyle) !important;
+  color: var(--white);
 }
 
 .logo:hover {
@@ -67,7 +68,6 @@ body {
   background-image: url(../assets/bg.jpg);
   background-size: cover;
   background-attachment: fixed;
-  color: var(--white);
 }
 
 .ball {
@@ -106,9 +106,9 @@ body {
 }
 
 .startButton {
+  color: var(--white);
   width: 320px;
   height: 60px;
-  color: var(--white);
   border-radius: 15px;
   margin-top: 40px;
   transition: 0.3s;
@@ -124,17 +124,7 @@ body {
   outline-offset: 15px;
 }
 
-.footerContainer {
-  display: flex;
-  justify-content: start;
-  color: var(--white);
-}
-
 .footerTitle {
   padding: 35px 0 0 15px;
   font-size: 20px;
-}
-
-.footerIcon {
-  margin: 15px;
 }
